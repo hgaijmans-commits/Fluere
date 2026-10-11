@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Home | MyWebsite{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+    <p class="eyebrow">WELCOME TO MY WEBSITE</p>
+
+    <h1>Build something <span>amazing.</span></h1>
+
+    <p class="hero-description">
+        A website built from scratch using Python, Flask, HTML and CSS.
+        This is where your journey begins.
+    </p>
+
+    <a href="#about" class="button">Explore More &rarr;</a>
+</section>
+
+<section class="features" id="about">
+    <article class="feature-card">
+        <h2>01. Simple</h2>
+        <p>A clean and straightforward design that's easy to navigate.</p>
+    </article>
+
+    <article class="feature-card">
+        <h2>02. Custom</h2>
+        <p>Build your own pages and make the website your own.</p>
+    </article>
+
+    <article class="feature-card">
+        <h2>03. Flexible</h2>
+        <p>Add new features using Python, Flask and JavaScript.</p>
+    </article>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Let's get started.</h2>
+    <p>Your website is ready for you to customise.</p>
+</section>
+
+{% endblock %}
